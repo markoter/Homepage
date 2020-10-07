@@ -5,6 +5,7 @@
         <title>Index</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
+        <script src="javascript.js"></script>
     </head>
     <body>
         <div class="content">
@@ -13,6 +14,14 @@
             <p>Tutaj teskt</p>
             <h2>Drugi nagłówek mniejszy</h2>
             <p>Tutaj też tekst</p>
+            <h2>Tu możesz napisać swoje pierdy</h2>
+            <form onsubmit="addtext()">
+                <input type="text" id="text">
+                <input type="submit">
+            </form>
+            <div id="yourtext">
+                <p>Miejsce na twój tekst</p>
+            </div>
         </div>
         <div id="footer">
             <table>
