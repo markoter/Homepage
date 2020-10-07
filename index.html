@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="styles.css">
         <script src="javascript.js"></script>
     </head>
-    <body>
+    <body onload="hiddenAllert()">
         <div class="content">
             <h1>Nagłówek 1</h1>
             <h2>Nagłówek mniejszy</h2>
@@ -21,6 +21,9 @@
             </form>
             <p id="yourtext"></p>
         </div>
+        <div class="alert alert-warning" role="alert" id="emptyAlert">
+            Write something please
+          </div>
         <div id="footer">
             <table>
                 <tr>
