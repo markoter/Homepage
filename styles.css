@@ -1,0 +1,21 @@
+body
+{
+    background-color: rgba(32, 141, 209, 0.404);
+}
+.content
+{
+    text-align: justify;
+}
+h1
+{
+    color: blue;
+}
+p
+{
+    color: brown;
+}
+td
+{
+    border: 1px solid black;
+    padding: 5px;
+}
