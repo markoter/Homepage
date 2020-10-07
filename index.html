@@ -15,13 +15,11 @@
             <h2>Drugi nagłówek mniejszy</h2>
             <p>Tutaj też tekst</p>
             <h2>Tu możesz napisać swoje pierdy</h2>
-            <form onsubmit="addtext()">
+            <form onsubmit="addtext(); return false;">
                 <input type="text" id="text">
                 <input type="submit">
             </form>
-            <div id="yourtext">
-                <p>Miejsce na twój tekst</p>
-            </div>
+            <p id="yourtext"></p>
         </div>
         <div id="footer">
             <table>
